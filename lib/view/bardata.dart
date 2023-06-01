@@ -1,6 +1,10 @@
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
-import 'package:image/bloc/expense_bloc.dart';
+
+import '../controller/bloc/expense_bloc.dart';
+
+
+
 
 class ExpenseChart extends StatefulWidget {
   final ExpenseState state;
